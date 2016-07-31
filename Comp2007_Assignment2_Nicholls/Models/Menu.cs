@@ -9,6 +9,8 @@ namespace Comp2007_Assignment2_Nicholls.Models
     {
         //Add the columns for the menu
         public string Name { get; set; }
-        public string 
+        public string Price { get; set; }
+        public string Picture { get; set; }
+        public string Descrip { get; set; }
     }
 }
