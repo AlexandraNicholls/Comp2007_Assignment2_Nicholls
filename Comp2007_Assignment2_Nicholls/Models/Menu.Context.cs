@@ -13,10 +13,10 @@ namespace Comp2007_Assignment2_Nicholls.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class comp2007Entities : DbContext
+    public partial class comp2007Entities1 : DbContext
     {
-        public comp2007Entities()
-            : base("name=comp2007Entities")
+        public comp2007Entities1()
+            : base("name=comp2007Entities1")
         {
         }
     
@@ -25,5 +25,6 @@ namespace Comp2007_Assignment2_Nicholls.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Menu> Menus { get; set; }
     }
 }

@@ -4,7 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="52e2261ffee94dd395c94c61d6a7a68d" Name="Diagram1" />
+      <Diagram DiagramId="2d53e0b10d674f52b3748ddc71274104" Name="Diagram1">
+        <EntityTypeShape EntityType="comp2007Model.Menu" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>
