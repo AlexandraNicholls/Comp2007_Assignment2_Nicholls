@@ -10,6 +10,16 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Comp2007_Assignment2_Nicholls.Models;
 
+/*
+*@File Name: AccountController.cs
+*@Author: Alex Nicholls
+*@Student Number: 200287546
+*@Site: Assignment2
+*@Date: July 31, 2016
+*@Description: This page controls the interactions between a user's account information
+*  in the database, and views.  
+*/
+
 namespace Comp2007_Assignment2_Nicholls.Controllers
 {
     [Authorize]
